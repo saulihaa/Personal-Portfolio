@@ -23,8 +23,8 @@ function Particle() {
       "number": {
         "value": 70,
         "density": {
-          "enable": true,
-          "value_area": 800
+          "enable": false,
+          "value_area": 2000
         }
       },
       "color": {
@@ -115,7 +115,7 @@ function Particle() {
           "speed": 3
         },
         "repulse": {
-          "distance": 200,
+          "distance": 113.3942962668978,
           "duration": 0.4
         },
         "push": {

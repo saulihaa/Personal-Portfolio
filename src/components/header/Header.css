@@ -38,8 +38,8 @@ bottom:20rem;
 .me{
 
     background: linear-gradient(var(--color-primary),transparent); 
-    width: 17rem;
-    height: 32rem;
+    width: 18rem;
+    height: 29rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -51,7 +51,7 @@ bottom:20rem;
 .scroll__down{
     position: absolute;
     right: -2.3rem;
-    bottom: 17rem;
+    bottom: 20rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
