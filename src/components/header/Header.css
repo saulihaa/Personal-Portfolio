@@ -41,7 +41,7 @@ bottom:20rem;
     width: 18rem;
     height: 29rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 9rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     /* overflow: hidden; */
@@ -51,7 +51,7 @@ bottom:20rem;
 .scroll__down{
     position: absolute;
     right: -2.3rem;
-    bottom: 20rem;
+    bottom: 24rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;

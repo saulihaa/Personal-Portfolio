@@ -69,7 +69,7 @@ function Particle() {
         "enable": true,
         "distance": 150,
         "color": "#ffffff",
-        "opacity": 0.20042650760819036,
+        "opacity": 0.4411185506104764,
         "width": 1.5
       },
       "move": {
