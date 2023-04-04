@@ -2,7 +2,8 @@ import React from 'react'
 import './Footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {BsInstagram} from 'react-icons/bs'
-import {FaTwitter} from 'react-icons/fa'
+import{BsLinkedin} from 'react-icons/bs'
+
 const footer = () => {
   return (
     <footer>
@@ -24,7 +25,8 @@ const footer = () => {
       <div className="footer__socials">
         <a href="https://www.facebook.com/sauliha.shakeel.3" target='_blank'> <FaFacebookF/></a>
         <a href="https://www.instagram.com/sau_liha_shakeel/" target='_blank'> <BsInstagram/></a>
-        <a href="https://twitter.com"> <FaTwitter/></a>
+        <a href="https://www.linkedin.com/in/sauliha-shakeel-749916256/" target= "_blank">< BsLinkedin/></a>
+
       </div>
 
       <div className="footer__copyright">
