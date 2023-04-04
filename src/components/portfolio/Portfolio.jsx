@@ -20,7 +20,7 @@ const data =[
   image: IMG2,
   title: 'Responsive User login System With Admin panel Using PHP',
   github: 'https://github.com/saulihaa/Login-system-with-admin',
-  demo:'https://dribble.com'
+  demo:'https://sauliha.000webhostapp.com/'
 },
 {
   id:3,

@@ -1,9 +1,7 @@
 import React from 'react'
 import './Testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-// import AVTR2 from '../../assets/avatar2.jpg'
-// import AVTR3 from '../../assets/avatar3.jpg'
-// import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/avatar1.png'
+import AVTR4 from '../../assets/hk1.png'
 
 
 // import Swiper core and required modules
@@ -18,16 +16,57 @@ import 'swiper/css/pagination';
 
 const data=[
   {
+    avatar:AVTR4,
+    name:'React (Basic) Certificate',
+    by:'Certified By : HackerRank',
+    head: 'Skills Certification Test:',
+    review:'It covers topics like Basic Routing, Rendering Elements,State Management (Internal Component State), Handling Events, ES6 and JavaScript and Form Validation.',
+    cert:'https://www.hackerrank.com/certificates/f4fc9665963d'
+  },
+  {
+    avatar:AVTR4,
+    name:'JavaScript (Basic) Certificate',
+    by:'Certified By : HackerRank',
+    head: 'Skills Certification Test:',
+    review:'It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.',
+    cert:'https://www.hackerrank.com/certificates/a49d7d731319'
+  },
+  {
+    avatar:AVTR4,
+    name:'SQL (Basic) Certificate ',
+    by:'Certified By : HackerRank',
+    head: 'Skills Certification Test',
+    review:'It includes simple queries, relationships, and aggregators.',
+    cert:'https://www.hackerrank.com/certificates/be62d2eee3ba'
+  },
+  {
+    avatar:AVTR4,
+    name:'Problem Solving (Basic) Certificate ',
+    by:'Certified By : HackerRank',
+    head: 'Skills Certification Test',
+    review:'It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).',
+    cert:'https://www.hackerrank.com/certificates/5d0902642c39'
+  },
+
+  {
+    avatar:AVTR4,
+    name:'CSS Certificate',
+    by:'Certified By : HackerRank',
+    head: 'Skills Certification Test',
+    review:'It covers topics like exploring Cascading and Inheritance, exploring text styling fundamentals, understanding the use of layouts in CSS, understand the boxing of elements in CSS, among others.',
+    cert:'https://www.hackerrank.com/certificates/5d0902642c39'
+  },
+  {
     avatar:AVTR1,
-    name:'The Complete HTML5 Course: From Beginning to Expert',
+    name:'The Complete HTML5 Course',
     by:'Offered By :  Creative Online School',
     head: 'WHAT I HAVE LEARNT:',
-    review:'Will be proficient on HTML5 from Basic to Advanced .Will be able to create amazing site using HTML5 .Will be able to work with Audio and Video in HTML5 .Hands on experience on Data Input and Buttons. Hands on experience on Absolute and Relative Links .Hands on experience on Tags and Lists .Basics and Advanced Concepts on CSS. Basics and Advanced Concepts of jQuer' ,
+    review:'It covers topics like to create amazing site using HTML5 , to work with Audio and Video in HTML5 ,Hands on experience on Data Input and Buttons,Hands on experience on Absolute and Relative Links,Hands on experience on Tags and Lists.' ,
     cert:'https://www.udemy.com/certificate/UC-d3618ab2-1f69-4fd3-83b2-ecf360cc0b7c/'
   },
   {
     avatar:AVTR1,
-    name:'Complete Modern JavaScript Firebase BootCamp the beginner',
+    name:'Complete Modern JavaScript Firebase BootCamp',
     by:'Offered By :  Creative Online School',
     head: 'WHAT I HAVE LEARNT:',
     review:'Go from a total beginner to an advanced JavaScript developer .Asynchronous JavaScript: The event loop, promises, async/await, AJAX and APIs .OOP including ES5 prototypes & ES6 classes .ES6 features like arrow functions, classes, default and rest parameters, etc.',
@@ -38,18 +77,18 @@ const data=[
 
 {
   avatar:AVTR1,
-  name:'Python And Flask Framework Complete Course For Beginners',
+  name:'Python And Flask Framework Complete',
   by:'Offered By :  Creative Online School',
   head: 'WHAT I HAVE LEARNT:',
-  review:'Python Basics To Advanced Concepts .Go from Beginner to Advanced in Python Programming by learning all of the basics to Object Orientated Programming.Write scripts for general productivity tasks Read and comprehend Python code Gain knowledge in regard to general programming concepts. Use variables to store, retrieve and calculate information .Utilize core programming tools such as functions and loops .Flask Framework Basics To Advanced .Flask Framework - Variable Rules, URL Building , HTTP Method' ,
+  review:'Write scripts for general productivity tasks Read and comprehend Python code Gain knowledge in regard to general programming concepts. Use variables to store, retrieve and calculate information,Utilize core programming tools.' ,
   cert:'https://www.udemy.com/certificate/UC-849df06c-26e9-4492-b216-d3bc46ed70df/'
 },
 {
   avatar:AVTR1,
-  name:'The Complete Google Forms Course - Sending & Analyzing Forms',
+  name:'The Complete Google Forms Course',
   by:'Offered By :  Creative Online School',
   head: 'WHAT I HAVE LEARNT:',
-  review:'Design custom forms to easily and efficiently collect information .Set up data filters and validations to better phrase questions. Interpret & analyze collected responses .Transform ordinary forms to quizzes for educational use .Distribute forms to any audience through multiple ways',
+  review:'Set up data filters and validations to better phrase questions. Interpret & analyze collected responses .Transform ordinary forms to quizzes for educational use .Distribute forms to any audience through multiple ways',
   cert:'https://www.udemy.com/certificate/UC-4312a6b9-8ce6-4072-a921-4bbd71078d38/'
 }
 ]
